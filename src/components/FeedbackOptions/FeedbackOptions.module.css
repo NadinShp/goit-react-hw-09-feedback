@@ -1,0 +1,22 @@
+.btn__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+.statistics__btn {
+  padding: 10px 25px;
+  outline: none;
+  box-shadow: 2px 2px 2px #acacac;
+  transition: scale(1);
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1), 200ms,
+    box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
+}
+.statistics__btn:hover,
+.statistics__btn:focus {
+  box-shadow: 3px 2px 2px #3b3c3e;
+  transform: scale(1.1);
+  cursor: pointer;
+}

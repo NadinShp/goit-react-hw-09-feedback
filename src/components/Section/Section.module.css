@@ -1,0 +1,11 @@
+.section__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px 0;
+}
+.section__wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 40px;
+}
